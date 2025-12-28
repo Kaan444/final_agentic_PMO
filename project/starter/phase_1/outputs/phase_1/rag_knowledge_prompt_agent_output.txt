@@ -1,0 +1,18 @@
+1) Chunking knowledge text...
+   ✅ Created 4 chunks.
+   ✅ Chunks file: chunks-20251228_100707_b524e83f.csv
+2) Ensuring embeddings exist (cached per-run)...
+   ⏳ Computing embeddings (first run can take a bit)...
+   ✅ Generated embeddings for 4 chunks.
+   ✅ Embeddings file: embeddings-20251228_100707_b524e83f.csv
+
+3) Prompt:
+   What is the podcast that Clara hosts about?
+
+4) Retrieving best chunk + generating answer...
+
+RAG Answer:
+Dear students,
+Clara hosts a podcast called "Crosscurrents" that explores the intersection of science, culture, and ethics.
+
+Explanation: The agent chunks the knowledge text, computes embeddings for each chunk (cached to CSV), retrieves the most relevant chunk using cosine similarity to the prompt embedding, then answers using only the retrieved chunk as context.

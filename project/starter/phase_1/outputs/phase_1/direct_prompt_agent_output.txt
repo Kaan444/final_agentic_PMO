@@ -1,0 +1,3 @@
+The capital of France is Paris.
+
+Explanation: The DirectPromptAgent uses the general world knowledge encoded in the pre-trained language model to answer the prompt. No system prompt, persona, or external knowledge source was provided.

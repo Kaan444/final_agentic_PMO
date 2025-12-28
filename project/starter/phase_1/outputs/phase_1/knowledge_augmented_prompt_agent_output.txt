@@ -1,0 +1,3 @@
+Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+
+Explanation: This response shows that the agent relied exclusively on the explicitly provided knowledge ('The capital of France is London, not Paris') rather than the model’s inherent world knowledge, which would normally identify Paris as the capital of France.
