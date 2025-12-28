@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Secrets
+.env
+**/.env
+
+# Virtual envs
+.venv/
+**/.venv/
+
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# RAG artifacts
+chunks-*.csv
+embeddings-*.csv
+EOF
